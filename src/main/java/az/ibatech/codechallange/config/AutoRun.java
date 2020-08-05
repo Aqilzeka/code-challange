@@ -28,7 +28,7 @@ public class AutoRun {
             Customer customer4 = new Customer("Leyla", 32, 1100.0);
             Customer customer5 = new Customer("Vahid", 51, 200.0);
 
-            customerRepository.saveAll(List.of(customer1,customer2,customer3,customer4));
+            customerRepository.saveAll(List.of(customer1,customer2,customer3,customer4,customer5));
 
 
             CreditHistories creditHistories1 = new CreditHistories(new Date(), 200.0, customer1);
